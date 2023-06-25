@@ -1,0 +1,96 @@
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+
+#loginPopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #FFFDFA;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2), 0 5px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width:820px) {
+    #loginPopup {
+        width: 80%;
+    }
+}
+@media (max-width:1024px) and (min-width:821px){
+    #loginPopup {
+        width: 50%;
+    }
+}
+
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+#closeButton:hover {
+    background-color: #d5d2d2;
+}
+
+#loginButton {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    background: #151414;
+    width: 218.25px;
+    height: 40.95px;
+    border-radius: 5px;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Background and Colors */
+body {
+    margin-top: 80px;
+    background-color: rgb(180, 205, 243);
+    font-family: Arial, sans-serif;
+}

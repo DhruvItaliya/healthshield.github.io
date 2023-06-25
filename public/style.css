@@ -1,0 +1,386 @@
+.blk-prd {
+    margin: auto;
+    width: 100%;
+    background-color: #ffffff;
+    /* background-color: rgb(13 110 253 / 20%); */
+    overflow: hidden;
+}
+
+.head {
+    font-size: 13px;
+}
+
+.cancer-insurance {
+    background: #4fdc95 url(https://static.pbcdn.in/cdn/images/home-v1/investment-plans-bg.png);
+    background-size: 340px;
+}
+
+.covid-insurance {
+    background: #7080FA url(https://static.pbcdn.in/cdn/images/home-v1/health-insurance-bg.png);
+    background-repeat: no-repeat;
+    background-size: 370px 200px;
+}
+
+.family-plans {
+    background: #FF9898 url(https://static.pbcdn.in/cdn/images/home-v1/health-insurance-bg.png);
+    background-size: 370px;
+}
+
+.block-data {
+    color: #fff;
+    padding: 10px;
+}
+
+.prd-bg {
+    border-radius: 18px;
+    margin: 20px auto 20px auto;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.copy {
+    font-size: 25px;
+}
+
+.best-place  {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(13 110 253 / 10%);
+    background: rgb(13 110 253 / 10%) url(https://static.pbcdn.in/cdn/images/home-v1/left-bg.png) left top no-repeat, url(https://static.pbcdn.in/cdn/images/home-v1/right-bg.png) right top no-repeat;
+}
+
+.left-block {
+    display: flex;
+    overflow:hidden;
+    padding-bottom: 26px;
+}
+
+.best-place .container .top-0 {
+    margin-top: 0;
+    width: 60%;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 50px;
+
+}
+
+.best-place .container .txt-block {
+    font-size: 40px;
+    width: 40%;
+    margin: auto;
+}
+
+.best-place .container .right-block .trust p.head {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D3CD9;
+    padding: 0 16px 0;
+}
+
+.best-place .container .right-block .insurer p.head {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d9d92d;
+    padding: 0 16px 0;
+}
+
+.best-place .container .right-block .lowest-price p.head {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d92d77;
+    padding: 0 16px 0;
+}
+
+.best-place .container .right-block .claims p.head {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2da8d9;
+    padding: 0 16px 0;
+}
+
+.top-icon {
+    font-size: 30px;
+    margin: 15px;
+}
+
+.best-place .container .right-block .copy {
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+.info-box::before {
+    content: '';
+    position: absolute;
+    left: -2;
+    top: 0;
+    height: 100%;
+    width: 4px;
+}
+
+.trust::before {
+    background: #2D3CD9;
+}
+
+.insurer::before {
+    background: #d9d92d;
+}
+
+.lowest-price::before {
+    background: #d92d77;
+}
+
+.claims::before {
+    background: #2da8d9;
+}
+
+.info-box {
+    width: 200px;
+    vertical-align: top;
+    background: #fff;
+    margin: 40px 48px 0 0;
+    height: 180px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 6px 16px rgba(52, 105, 203, .16);
+    box-shadow: 0 6px 16px rgba(52, 105, 203, .16);
+    position: relative;
+    left: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+    .left-block {
+        display: block;
+    }
+    .best-place .container .txt-block {
+        width: 100%;
+        margin: auto;
+    }
+    .best-place .container .top-0 {
+        margin: auto;
+        padding: 0px;
+        display: inline-block;
+    }
+    .info-box {
+        margin:5px 50%;
+    }
+}
+
+.app-block .row .copy-part {
+    width: 50%;
+}
+
+.app-block .row .mobile {
+    width: 50%;
+}
+
+.app-block .row .mobile img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.app-block .row .copy-part .text-head {
+    font-size: 30px;
+    margin: 0;
+}
+
+.app-block .row .copy-part .control {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.app-block .row .copy-part .list li {
+    margin: 0 0 10px 30px;
+    list-style: none;
+}
+
+.app-block .row .copy-part .list li::before {
+    background: url(https://static.pbcdn.in/cdn/images/webp/star-outline.webp);
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    margin: 0 14px 0 -30px;
+}
+
+.app-block .row .copy-part .line {
+    height: 4px;
+    width: 60px;
+    margin: 5px 0px 10px 0px;
+    background: #04f786;
+}
+
+.app-block .row {
+    display: flex;
+}
+
+.app-block {
+    background-color: rgb(13 110 253 / 10%);
+    padding: 60px 0 60px 0;
+}
+
+.app-block .row .copy-part .play-store {
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    background: url(https://static.pbcdn.in/cdn/images/webp/store-logo.webp) no-repeat;
+    background-size: cover;
+}
+
+.app-block .row .copy-part .ios {
+    background-position: 0 -80px;
+}
+
+@media (max-width: 1024px) {
+    .app-block .row {
+        display: block;
+    }
+
+    .app-block .row .copy-part {
+        width: 100%;
+    }
+    .app-block .row .mobile {
+        width: 100%;
+    }
+}
+
+.mid-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mid-row .container .text-header {
+    width: 50%;
+}
+
+.mid-row .container h2 {
+    font-weight: bold;
+}
+
+.mid-row .container h2 span {
+    height: 4px;
+    width: 60px;
+    background: #2D3CD9;
+    display: block;
+}
+
+.mid-row .container .list ul {
+    display: flex;
+}
+
+.mid-row .container .list ul li {
+    background: #ffffff;
+    margin-right: 10px;
+    list-style: none;
+    width: 20%;
+    height: 220px;
+    border: 1px solid #dfe1e6;
+    padding: 5px;
+}
+
+.mid-row .container .list ul li div {
+    margin: 0px 30px;
+}
+
+.mid-row .container .list ul li .heading {
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+.mid-row .container .list ul li .text {
+    display: block;
+    font-size: small;
+}
+
+.mid-row .container .list ul li:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2), 0 5px 5px 0px rgba(0, 0, 0, 0.24);
+    transform: scale(1.05);
+    transition: .1s;
+    border: none;
+    border-radius: 2px;
+
+    .heading {
+        font-weight: bold;
+    }
+}
+
+.mid-row .container .list ul li span.sprite-image {
+    width: 90px;
+    height: 90px;
+    background: url(https://static.pbcdn.in/cdn/images/webp/advantages-sprite.webp) no-repeat;
+    display: inline-block;
+    background-size: 105%;
+    margin: 20px 0 0 10px;
+}
+
+.mid-row .container .list ul li span.lowest-price {
+    background-position: 0 -315px;
+}
+
+.mid-row .container .list ul li span.unbiased-advice {
+    background-position: 0 -420px;
+}
+
+.mid-row .container .list ul li span.reliable {
+    background-position: 0 -102px;
+}
+
+.mid-row .container .list ul li span.claim-support {
+    background-position: 0 0px;
+}
+
+.mid-row .container .list ul li span.happy-help {
+    background-position: 0 -206px;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 1024px) {
+    .mid-row .container {
+        margin: 10px auto;
+    }
+
+    .mid-row .container h2 {
+        text-align: center;
+    }
+
+    .mid-row .container h2 span {
+        margin: 10px auto;
+    }
+
+    .mid-row .container .text-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mid-row .container .list ul {
+        display: block;
+    }
+
+    .mid-row .container .list ul li {
+        height: 100px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+
+    }
+
+    .mid-row .container .list ul li span.sprite-image {
+        margin: 0px 0 0 10px;
+    }
+
+    .mid-row .container .list ul li div {
+        margin-left: 30px;
+    }
+}
+
